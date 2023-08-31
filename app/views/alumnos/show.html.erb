@@ -3,8 +3,8 @@
 <%= render @alumno %>
 
 <div>
-  <%= link_to "Edit this alumno", edit_alumno_path(@alumno) %> |
-  <%= link_to "Back to alumnos", alumnos_path %>
+  <%= link_to "Editar alumno", edit_alumno_path(@alumno) %> |
+  <%= link_to "Volver a alumnos", alumnos_path %>
 
-  <%= button_to "Destroy this alumno", @alumno, method: :delete %>
+  <%= button_to "Eliminar alumno", @alumno, method: :delete %>
 </div>
